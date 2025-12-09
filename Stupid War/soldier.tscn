@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dyklqghr5rjto"]
+
+[ext_resource type="PackedScene" uid="uid://d2dy6adwpf4pp" path="res://3D Assets/Soldier.glb" id="1_ba3fx"]
+
+[node name="Soldier" instance=ExtResource("1_ba3fx")]
+
+[node name="Camera3D" type="Camera3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 0.83914554, 0.543907, 0, -0.543907, 0.83914554, 0, 0.92553234, 1.1941369)

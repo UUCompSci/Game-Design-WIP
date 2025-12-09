@@ -1,3 +1,20 @@
-[gd_scene format=3 uid="uid://cmpfxfwx6805j"]
+[gd_scene load_steps=2 format=3 uid="uid://cmpfxfwx6805j"]
+
+[ext_resource type="PackedScene" uid="uid://d2dy6adwpf4pp" path="res://3D Assets/Soldier.glb" id="1_f3sb7"]
 
 [node name="World" type="Node3D"]
+
+[node name="Soldier" parent="." instance=ExtResource("1_f3sb7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5631425, -1.1920929e-07, -0.3819826)
+
+[node name="Soldier2" parent="." instance=ExtResource("1_f3sb7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5604172, 5.9604645e-08, -0.5640913)
+
+[node name="Soldier3" parent="." instance=ExtResource("1_f3sb7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.35611564, 0, -0.56937194)
+
+[node name="Soldier4" parent="." instance=ExtResource("1_f3sb7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3533405, 5.9604645e-08, -0.38729838)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.7495684, 0.6619269, 0, -0.6619269, 0.7495684, 0.7282574, 0.78212345, 0.5604488)
